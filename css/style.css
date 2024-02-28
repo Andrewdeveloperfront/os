@@ -23,12 +23,7 @@ i{
     top: 100%;
     transition: .5s;
 }
-.inner-loading-screen{
-    position: absolute;
-    z-index: 9;
-    background-color: #0D0D0D;
-    display: flex;
-}
+
 .meal:hover .meal-layer{
     top: 0;
 }
@@ -47,5 +42,12 @@ i{
 
 .loading{
     z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
     display: flex;
 }
